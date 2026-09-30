@@ -1,5 +1,6 @@
-node_modules/
-dist/
-.build-cache/
-.userdata/
-*.rar
+# This repo is the distribution repo: only the manifest + mods are tracked.
+# Launcher source code lives here on disk but stays untracked.
+/*
+!/launcher.json
+!/mods/
+!/.gitignore
