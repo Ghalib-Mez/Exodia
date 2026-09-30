@@ -1,0 +1,53 @@
+{
+  "_comment": "Fill in every UPPERCASE placeholder, then host this file + your mods/ folder (see docs/DISTRIBUTION.md). Delete the _comment keys when done.",
+
+  "schemaVersion": 1,
+
+  "launcher": {
+    "minLauncherVersion": "1.0.0",
+    "newsUrl": "https://YOUR-WEBSITE.com/news",
+    "background": "https://YOUR-WEBSITE.com/launcher-bg.jpg",
+    "heroImage": "https://YOUR-WEBSITE.com/hero-keyart.jpg"
+  },
+
+  "news": [
+    {
+      "title": "Season 1 launches Friday!",
+      "body": "The storm arrives. New spawn, new events, faction resets at 18:00 UTC.",
+      "date": "2026-10-02",
+      "url": "https://YOUR-WEBSITE.com/news/season-1",
+      "image": "https://YOUR-WEBSITE.com/news/season-1.jpg"
+    }
+  ],
+
+  "server": {
+    "name": "YOUR SERVER NAME",
+    "address": "play.yourserver.com",
+    "port": 25565,
+    "discord": "https://discord.gg/YOUR-INVITE",
+    "website": "https://YOUR-WEBSITE.com"
+  },
+
+  "modpack": {
+    "id": "tempest-factions",
+    "displayName": "Tempest Factions",
+    "version": "1.0.0",
+    "minecraft": "1.16.5",
+    "forge": "36.2.42",
+    "memory": { "min": "2G", "max": "4G" }
+  },
+
+  "mods": [
+    {
+      "id": "exode",
+      "name": "Exode",
+      "file": "exode-1.0.0.jar",
+      "url": "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/mods/exode-1.0.0.jar",
+      "sha1": "09a53b5f3a6f24d243c06db74c7da3ea2a87617c",
+      "size": 30953151,
+      "required": true
+    }
+  ],
+
+  "files": []
+}
